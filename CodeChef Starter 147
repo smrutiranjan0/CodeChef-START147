@@ -1,0 +1,53 @@
+****************Gold Coins 101**************************   Link- https://www.codechef.com/problems/GOLDCOINS
+
+          #include <bits/stdc++.h>
+          using namespace std;
+          
+          int main() {
+              int A ,B ,X ,Y ;
+              cin >> A>> B>> X>> Y;
+              if(X>Y)
+                  cout << A;
+              else 
+                  cout << B;
+          }
+
+******************Independence Day 101************************    Link- https://www.codechef.com/problems/INDEPENDENCE
+
+          #include <bits/stdc++.h>
+          using namespace std;
+          
+          int main() {
+          	int t;
+          	cin>>t;
+          	while(t--)
+          	{
+          	    int x,y,z;
+          	    cin>>x>>y>>z;
+          	    
+          	    if( (x+y+1)>=z && (x+z+1)>=y && (y+z+1)>=x )
+          	        cout<<"YES"<<endl;
+          	    else
+          	        cout<<"NO"<<endl;
+          	}
+          }
+
+
+******************Truth Teller And Liars 101********************************        Link-https://www.codechef.com/problems/TRUTHLIE
+          #include <bits/stdc++.h>
+          using namespace std;
+          
+          int main() {
+          	int t;
+          	cin >> t;
+          	while(t--)
+          	{
+          	    int n , m ;
+          	    cin>> n >> m;
+          	    
+          	    if(n<=m)
+          	        cout<< -1 <<endl;
+          	    else
+          	        cout<< 2*m + 1 <<endl;
+          	}
+          }
